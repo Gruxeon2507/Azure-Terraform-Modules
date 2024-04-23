@@ -7,7 +7,8 @@ The repository is organized into multiple directories, each representing a diffe
 - `main.tf`: This is where the main Terraform configuration is written.
 - `variables.tf`: This file defines the variables used in main.tf.
 - `outputs.tf`: This file defines the outputs of main.tf.
-##Usage
+
+## Usage
 To use these modules, you need to have Terraform installed on your machine. Once you have Terraform installed, import the module, fill the required value (and optional value if needed), then run the following commands:
 ```
 terraform init
